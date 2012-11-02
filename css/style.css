@@ -4,28 +4,47 @@
 
 
 body {
-    background-image: url("../img/body_bg.png");
+    background-image: url("../img/body_bg.jpg");
 }
 
 #container {
     width: 960px;
     margin: 0 auto;
-    background-image: url("../img/container_bg.png");
+    background-image: url("../img/container_bg.jpg");
     overflow: hidden;
 }
 
-h1 {
+#container h1 {
     background-image: url("../img/logo.png");
     text-indent: -9999px;
 	display: block;
 	overflow: hidden;
-	width: 724px;
+	width: 790px;
 	height:183px;
-	margin: 0 auto;
+            margin: 0 auto;
 }
 
+nav {
+    background-color: #fefee8;
+}
+
+header nav ul li {
+    float: left;
+    color: #b4614f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 20px;
+}
+
+#amenities {
+    background: url("../img/amenities.png") no-repeat ;
+    width: 64px;
+    height: 48px;
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
+
 }
 
 #column_1, #column_2, #column_3 {
